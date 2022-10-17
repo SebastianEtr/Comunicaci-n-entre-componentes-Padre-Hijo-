@@ -1,7 +1,11 @@
+
+
 <h3 style="color: blue;">Hijo Component</h3>
 
-<h4 style="color: blue;">{{ nombreHijo}}</h4>
-
+<h4 style="color: blue;">{{ nombreHijo | uppercase}}</h4>
+<h4 style="color: blue;">{{ nombreHijo | filter }}</h4>
+<h4 style="color: blue;">{{ nombreHijo | impura}}</h4>
+<h4 style="color: blue;">{{ nombreHijo }}</h4>
 <button class="btn btn-info" (click)="cambiarNombre()">
 
     cambiar nombre de nuevo
